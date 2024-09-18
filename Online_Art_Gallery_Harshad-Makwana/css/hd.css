@@ -1,0 +1,390 @@
+/*
+
+    Developed by HARSHAD MAKWANA
+    BCA-SEM:5
+    Year of 2013
+    KAMANI SCIENCE COLLAGE - AMRELI
+
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/*header css*/
+/* name of web*/
+.name-web{
+    height: 60px;
+    background-color: white;
+    color: rgb(28, 116, 156);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  navbar */
+.navbar{
+    height: 70px;
+    background-color: rgb(28, 116, 156);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* side-bar for navbar box-1*/
+
+.sidenav {
+            height: 100%;
+            margin-top: 60px;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #eee;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+}
+
+.sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #5b5757;
+            display: block;
+            transition: 0.2s;
+}
+
+.sidenav a:hover {
+            color: #1493b9;
+}
+
+.sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            padding: 15px;
+            color: red;
+            font-size: 30px;
+}
+
+.category-link {
+            cursor: pointer;
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.2s;
+}
+
+.category-link:hover {
+            color: #f1f1f1;
+}
+
+.category-list {
+            display: none;
+            padding-left: 32px;
+}
+
+.category-list.active {
+            display: block;
+}
+
+#main {
+            transition: margin-left 0.3s;
+            padding: 16px;
+}
+
+    /*  
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a, .category-link {font-size: 18px;}
+        }
+     */
+
+/* border hover */
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* Address box-2 */
+
+/* blank box 3 */
+
+.name1{
+    width: 600px;
+    height: 40px;
+}
+
+/* srchbar box-4*/
+ .hr-titel{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 40px;
+ }
+
+.cl2{
+    color: #a6cbc8;
+}
+
+/* login/rigistration/profile/logout box-5 and box-6  */
+/*link color change */
+
+.nav-singin a{
+    text-decoration: none;
+    color: white;
+  }
+
+/* cart box-7 */
+
+.nav-cart a{
+    text-decoration: none;
+    color: orangered;
+}
+
+
+
+/*   -----***************------ */
+
+
+
+/*body part css*/
+
+/* image slider */
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+
+/*   -----***************------ */
+
+
+/* welcome */
+.welcome{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+
+/* image */
+  .image{
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+/* second navbar */
+.second-navbar{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+
+/*   -----***************------ */
+
+/* space */
+  .space{
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+/* head artist */
+.head-artist{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    background-color: #eee;
+    text-align: center;
+    color: #2e425f;
+}
+
+/* artist */
+.title-artist{
+    margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    background-color: rgb(59, 39, 151);
+    text-align: center;
+    color: white;
+}
+
+/* artist-more */
+ .artist-more{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: #304d69c4;
+    height: auto;
+
+ }
+
+
+
+/* art-pro*/
+  .art-pro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: #474726c4;
+    height: auto;
+  }
+
+  /* title-art-product */
+  .title-art-product{
+     margin-top: 20px;
+    height: 30px;
+    padding: 15px;
+    background-color: rgb(16, 214, 65);
+    text-align: center;
+    color: rgb(167, 32, 32);
+  }
+
+
+/*   -----***************------ */
+
+/* cart-dack */
+  /* Define styles for the card container */
+        .card {
+            background-color: #2e425fba;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 25px;
+            box-shadow: 14px 14px 14px 0 rgba(0, 0, 0, 70);
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        /* Style for the card image */
+        .card img {
+            /* max-width: 100%; */
+            width:100%;
+            height:200px;
+        }
+
+        /* Style for paragraphs and button */
+        .card p {
+            margin: 10px 0;
+        }
+
+        .cbtn {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+
+ /* view more */
+
+ .view-more{
+     margin: 2% 45% 2%;
+ }
+
+ .ccbtn{
+            background-color: #ec250b;
+            color: #fff;
+            border: none;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+    }
+
+/*   -----***************------ */
+
+/* contect */
+.contect{
+            
+            background-color: #6095a5ba;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 25px;
+            box-shadow: 14px 14px 14px 0 rgba(0, 0, 0, 70);
+            width: 300px;
+            margin: 20px 470px;
+            text-align: center;
+            display: inline-block;
+}
+
+/* artist details */
+
+/*footer css*/
+
+/* footer-two */
+ .footer-two{
+    height: 50px;
+    background-color: #a6cbc8;
+ }
+
+  .footer-two-a{
+    text-align: center;
+    padding: 17px;
+  }
+
+/* footer-three */
+ .footer-three{
+    height: 20px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(28, 116, 156);
+    text-align: center;
+ }
